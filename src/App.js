@@ -7,7 +7,6 @@ import { Qozi } from "./pages/Qozi";
 import { Register } from "./pages/Register";
 import { Cabinet } from "./pages/Cabinet";
 import { NotFoundPage } from "./pages/NotFoundPage";
-import { UseFunctions } from "./pages/UseFunctions";
 import { Car } from "./pages/car-project/Car";
 import { GetOneCars } from "./pages/car-project/GetOneCar";
 import { Phone } from "./pages/phone-project/Phone";
@@ -25,7 +24,6 @@ function App() {
           <Route path="/qozi" element={<Qozi/>}/>
           <Route path="/register" element={<Register/>}/>
           <Route path="/cabinet" element={<Cabinet/>}/>
-          <Route path="/use" element={<UseFunctions/>}/>
           <Route path="/car" element={<Car/>}/>
           <Route path="/car/:name" element={<GetOneCars/>}/>
           <Route path="/phone" element={<Phone/>}/>
